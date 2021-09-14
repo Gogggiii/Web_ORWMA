@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <title>PWM for beginners</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+    <body>
+        <header>
+            <div class="naslov">
+                <img src="images/PWM-Icon.png" usemap="#shema">
+                <map name="shema">
+                <area shape="rect" coords="133, 216, 160, 277" alt="Resistor" href="computer.htm">
+                <h1>PWM for beginners</h1>
+                <span id="counter"></span>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">POČETNA</a></li>
+                <li><a href="pages/princip_rada.html">PRINCIP RADA</a></li>
+                <li><a href="pages/slicno.html">DRUGI IZVORI PWM</a></li>
+                <li><a href="pages/o_meni.html">O MENI</a></li>
+            </ul>
+        </nav>
+        <section>
+            <article>
+                <img src="images/main.png" alt="Slika sheme spoja">
+            </article>
+            <article>
+                <p>Na slici se nalazi shematski prikaz strujnog kruga koji služi kao izvor PWM signala promjenjivog Duty Cycle-a u rangu od otprilike 5 do 95%. 
+                Ovdje možemo vidjeti kako su komponente međusobno spojene u smisleni strujni krug. Klikom na pojedinačnu komponentu otvoriti će vas se stranica na wikipediji koja pobliže objašnjava komponentu i kako ona radi.
+                Klikon na Princip rada će te biti prebačeni na stranicu na kojoj je pobliže opisan princip rada ovog strujnog kruga.
+                </p>
+            </article>
+        </section>
+        <footer>
+            <div style="height: 40px;">
+                <p style="float: left;">Sva prava pridržana.</p>
+                <div style="float:right;"><a href="https://web.facebook.com/Gogs221/"><img src="../images/facebook.png" style="width: 40px;" ></a> <a href="https://www.instagram.com/gogi640/?hl=hr"><img src="../images/instagram.png" style="width: 40px;"></a> 
+                    <a href="https://hr.linkedin.com/in/goran-juri%C4%87-4124231ba"><img src="../images/linkedin.png" alt="" style="width: 40px;"></a>
+                </div>
+            </div>
+        </footer>
+           
+    </body>
+</html>
+
+<script>
+    var rezultat = document.getElementById("counter");
+    var number = Math.floor((Math.random()*50+1));
+    rezultat.innerHTML="Trenutni broj korisnika na stranici je "+ number;
+</script>

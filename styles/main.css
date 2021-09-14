@@ -1,0 +1,104 @@
+html{
+    background-color:whitesmoke;
+
+}
+body{
+    padding-left: 0px;
+    padding-top: 0px;
+    margin:0px;
+}
+
+h1{
+    margin:0px;
+    color: teal;
+}
+.naslov{
+
+    margin: 0px;
+    background-color:rgba(153, 217, 234, 182);;
+    padding:10px;
+    padding-right: 0px;
+}
+/*.naslov h1{
+    
+}*/
+.naslov img{
+    height:38px;
+    width:45px;
+    float: left;
+    margin-right: 10px;
+}
+nav{
+    background-color: rgba(153, 217, 255, 100);
+    padding:0px;
+}
+nav ul{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+}
+nav li{
+    flex:1;
+    padding:0px;
+    color: blue;
+}
+nav li a{
+    text-decoration: none;
+    display:block;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+section{
+    display:flex;
+}
+article:nth-of-type(1) {
+    flex: 2.5;
+    padding:10px;
+}
+article:nth-of-type(2){
+    flex:1;
+    padding:10px;
+}
+img{
+    width: 100%;
+}
+
+
+footer{
+    background-color: rgba(153, 217, 255, 100);
+    padding: 15px;
+}
+
+nav li:hover{
+    background-color: rgba(153, 217, 200, 100);
+}
+a:visited{
+    color: blue;
+
+}
+.sadrzaj{
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+.sadrzaj>div {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #ddd;
+    border: 2pc solid whitesmoke;
+
+}   
+
+/*footer p{
+
+    
+}*/

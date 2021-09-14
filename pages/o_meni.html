@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PWM for beginners</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+
+<body>
+    <header>
+        <div class="naslov">
+            <img src="../images/PWM-Icon.png">
+            <h1>PWM for beginners</h1>
+            <span id="counter"></span>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">POČETNA</a></li>
+            <li><a href="princip_rada.html">PRINCIP RADA</a></li>
+            <li><a href="slicno.html">DRUGI IZVORI PWM</a></li>
+            <li><a href="o_meni.html">O MENI</a></li>
+        </ul>
+    </nav>
+    <section>
+
+
+        <div class="sadrzaj">
+            <div class="sad1">
+                <h2>Djetinjstvo</h2>
+                <img src="../images/mojaSlikaPTS.jpg">
+                <p>
+                    Goran Jurić je rođen 25.6.1999. u Požegi. Pohađao je osnovnu školu u Kutjevu, općini u blizini sela
+                    u kojem je odrastao.
+                    2014. godine upisuje Tehničku školu u Požegi, smjer računalni tehničar koju završava 2018. godine.
+                </p>
+            </div>
+            <div class="sad2">
+                <h2>Interesi</h2>
+                <img src="../images/electronics.jpg">
+                <p>
+                Od malena je zainteresiran za elektroniku, što pokazuje izradom brojnih projekata, često baziranih na Arduinu.
+                Zadnjih par godina spaja svoje znanje o elektronici sa svojom ljubavlju za automobile, pa radi preinake na svojem vlastitom automobilu u svrhu poboljšavanja funkcionalnosti vozila.
+                U izradi sustava za automobile primjenjuje svoje znanje o 3d modeliranju, pa svaki uređaj ima i svoje pripadno kučište.
+                </p>
+            </div>
+            <div class="sad3">
+                <h2>Fakultet</h2>
+                <img src="../images/ferit.png">
+                <p>
+                    2018. upisuje Fakultet elektrotehnike, računarstva i informacijskih tehnologija, smjer Elektrotehnika i informacijska tehnolgija na kojem uredno polaže sve kolegije na vrijeme i sa uzornim uspjehom.
+                    Na drugoj godini odabire izborni blok Komunikacije i informacije na kojem se dalje usavršava u poljima elektronike i programiranja.
+                </p>
+            </div>
+            <div class="sad4">
+                <h2>Nastavak školovanja</h2>
+                <img src="../images/rimac-nevera.jpg">
+                <p>
+                    Planira upisati diplomski smjer Automobilsko računarstvo na FERIT-u na kojem bi dalje išao u smjeru elektronike i programiranja, ali direktno usmjereno na Automobilske sustave.
+                </p>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <div style="height: 40px;">
+            <p style="float: left;">Sva prava pridržana.</p>
+            <div style="float:right;"><a href="https://web.facebook.com/Gogs221/"><img src="../images/facebook.png"
+                        style="width: 40px;"></a> <a href="https://www.instagram.com/gogi640/?hl=hr"><img
+                        src="../images/instagram.png" style="width: 40px;"></a>
+                <a href="https://hr.linkedin.com/in/goran-juri%C4%87-4124231ba"><img src="../images/linkedin.png" alt=""
+                        style="width: 40px;"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+
+<script>
+    var rezultat = document.getElementById("counter");
+    var number = Math.floor((Math.random()*50+1));
+    rezultat.innerHTML="Trenutni broj korisnika na stranici je "+ number;
+</script>
